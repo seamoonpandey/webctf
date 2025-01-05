@@ -5,10 +5,10 @@ This is a multi-stage CTF challenge that tests your knowledge of HTTP headers, c
 ## Challenge Description
 
 Can you capture the flag? You'll need to:
+
 1. Prove you're using the right browser
 2. Know the secret handshake
 3. Become an admin
-4. Find the hidden timing-based secret
 
 ## Running the Challenge
 
@@ -25,3 +25,5 @@ npm start
 4. Hidden Timing Challenge
 
 Good luck!
+
+### Question
