@@ -8,8 +8,8 @@ app.use(cookieParser());
 
 // Configurations and Secrets
 const SECRET_KEY = crypto.randomBytes(32).toString("hex");
-const FLAG = "i-CES{super_hard_questi0n}";
-const ADMIN_TOKEN = "hardcoded_admin_token";
+const FLAG = "i-CES{y0u_c@n't_b3lieve_th1s_isn't_@_fl4g!}";
+const ADMIN_TOKEN = crypto.randomBytes(16).toString("hex");
 
 // Utility Functions
 function createHashToken(data) {
